@@ -1,0 +1,14 @@
+# This file creates a filebeat log2timeline CSV
+
+- type: log
+  paths:
+    - /logstash/timeline/*/*/*/*/*
+    - /logstash/timeline/*/*/*/*
+    - /logstash/timeline/*/*/*
+    - /logstash/timeline/*/*
+    - /logstash/timeline/*
+  exclude_files: [ 'readme.txt', '\.gz$', '\.bz2$', '\.zip$' ]
+  close_inactive: 5m
+  fields_under_root: true
+  fields:
+    type: timeline
