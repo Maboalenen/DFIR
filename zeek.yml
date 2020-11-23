@@ -1,0 +1,120 @@
+# Module: zeek
+# Docs: https://www.elastic.co/guide/en/beats/filebeat/7.10/filebeat-module-zeek.html
+
+- module: zeek
+  capture_loss:
+    enabled: true
+    var.paths: ["/logstash/zeek/capture_loss.log"]
+  connection:
+    enabled: true
+    var.paths: ["/logstash/zeek/conn.log"]
+  dce_rpc:
+    enabled: true
+    var.paths: ["/logstash/zeek/dce_rpc.log"]
+  dhcp:
+    enabled: true
+    var.paths: ["/logstash/zeek/dhcp.log"]
+  dnp3:
+    enabled: true
+    var.paths: ["/logstash/zeek/dnp3.log"]
+  dns:
+    enabled: true
+    var.paths: ["/logstash/zeek/dns.log"]
+  dpd:
+    enabled: true
+    var.paths: ["/logstash/zeek/dpd.log"]
+  files:
+    enabled: true
+    var.paths: ["/logstash/zeek/files.log"]
+  ftp:
+    enabled: true
+    var.paths: ["/logstash/zeek/ftp.log"]
+  http:
+    enabled: true
+    var.paths: ["/logstash/zeek/http.log"]
+  intel:
+    enabled: true
+    var.paths: ["/logstash/zeek/intel.log"]    
+  irc:
+    enabled: true
+    var.paths: ["/logstash/zeek/irc.log"]
+  kerberos:
+    enabled: true
+    var.paths: ["/logstash/zeek/kerberos.log"]
+  modbus:
+    enabled: true
+    var.paths: ["/logstash/zeek/modbus.log"]
+  mysql:
+    enabled: true
+    var.paths: ["/logstash/zeek/mysql.log"]
+  notice:
+    enabled: true
+    var.paths: ["/logstash/zeek/notice.log"]
+  ntlm:
+    enabled: true
+    var.paths: ["/logstash/zeek/ntlm.log"]
+  ocsp:
+    enabled: true
+    var.paths: ["/logstash/zeek/ocsp.log"]
+  pe:
+    enabled: true
+    var.paths: ["/logstash/zeek/pe.log"]
+  radius:
+    enabled: true
+    var.paths: ["/logstash/zeek/radius.log"]
+  rdp:
+    enabled: true
+    var.paths: ["/logstash/zeek/rdp.log"]
+  rfb:
+    enabled: true
+    var.paths: ["/logstash/zeek/rfp.log"]
+  sip:
+    enabled: true
+    var.paths: ["/logstash/zeek/sip.log"]
+  smb_cmd:
+    enabled: true
+    var.paths: ["/logstash/zeek/smb_cmd.log"]
+  smb_files:
+    enabled: true
+    var.paths: ["/logstash/zeek/smb_files.log"]
+  smb_mapping:
+    enabled: true
+    var.paths: ["/logstash/zeek/smb_mapping.log"]
+  smtp:
+    enabled: true
+    var.paths: ["/logstash/zeek/smtp.log"]
+  snmp:
+    enabled: true
+    var.paths: ["/logstash/zeek/snmp.log"]
+  socks:
+    enabled: true
+    var.paths: ["/logstash/zeek/socks.log"]
+  ssh:
+    enabled: true
+    var.paths: ["/logstash/zeek/ssh.log"]
+  ssl:
+    enabled: true
+    var.paths: ["/logstash/zeek/ssl.log"]
+  stats:
+    enabled: true
+    var.paths: ["/logstash/zeek/stats.log"]
+  syslog:
+    enabled: true
+    var.paths: ["/logstash/zeek/syslog.log"]
+  traceroute:
+    enabled: true
+    var.paths: ["/logstash/zeek/traceroute.log"]
+  tunnel:
+    enabled: true
+    var.paths: ["/logstash/zeek/tunnel.log"]
+  weird:
+    enabled: true
+    var.paths: ["/logstash/zeek/weird.log"]
+  x509:
+    enabled: true
+    var.paths: ["/logstash/zeek/x509.log"]
+
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
