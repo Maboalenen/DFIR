@@ -12,13 +12,13 @@ Abstract
 Type of indexing data 
 --------------
 **Logs**
-o	Output data IIS Exchange(Logs)
-o	Output data Log2timeline(CSV)
-o	Output data Kape(JSON)
-o	Output data kape(windows event logs (JSON))
-o	Windows event logs (EVTX format)
-**Network Traffic**
-o	Output data Souricata  (PCAP)
-o	Output data zeek  (PCAP)
+| Output data IIS Exchange(Logs)
+| Output data Log2timeline(CSV)
+|	Output data Kape(JSON)
+|	Output data kape(windows event logs (JSON))
+|	Windows event logs (EVTX format)
+| **Network Traffic**
+|	Output data Souricata  (PCAP)
+|	Output data zeek  (PCAP)
 
 
