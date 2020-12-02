@@ -55,7 +55,7 @@ PS C:\Program Files\Winlogbeat> .\winlogbeat.exe -c .\winlogbeat.yml -e
 ``` 
 Zeek read PCAP files and send data to elasticsearch. 
 
-**Note** zeek output must be at path: /logstash/zeek/
+**Note**: zeek output must be at path: /logstash/zeek/
 ```bash
 $ /logstash/zeek$ zeek -r file.pcap
 ```
