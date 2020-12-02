@@ -12,6 +12,7 @@ Abstract
 Type of indexing data 
 --------------
 **Logs**
+|--|
 | Output data IIS Exchange(Logs)
 | Output data Log2timeline(CSV)
 |	Output data Kape(JSON)
