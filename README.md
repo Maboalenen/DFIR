@@ -11,10 +11,10 @@ Abstract
 
 Type of indexing data 
 --------------
-| output logs | Ext |
+|output_logs|Ext|
 |--|--|
-| IIS Exchange  | Log |
-| Log2time line |CSV|
+|IIS Exchange  |Log|
+|Log2timeline |CSV|
 |Kape |JSON|
 |KAPE Windows event logs |JSON|
 | Windows Event Logs|EVTX|
