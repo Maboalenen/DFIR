@@ -11,16 +11,11 @@ Abstract
 
 Type of indexing data 
 --------------
-Logs
----------
-| Output data IIS Exchange |.LOGS |
-| Output data Log2timeline |.CSV |
-|	Output data Kape|.JSON |
-|	Output data kape windows event logs |.JSON |
-|	Windows event logs |.EVTX |
-Network Traffic
---------
-|	Output data Souricata  |PCAP|
-|	Output data zeek |PCAP|
-
-
+| NIST | SANS |
+|--|--|
+|1-Preparation | 1- Preparation |
+|2-Detection and Analysis|2- Identification|
+|3- Containment, Eradication, & Recovery|3-Containment|
+|4-Post-Incident Activity|4- Eradication
+| |5- Recovery
+| |6- Lessons Learned
