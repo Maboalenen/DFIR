@@ -33,6 +33,39 @@ How to use
 -----------
 
 Send kape output (JSON format)
-bash```
+```bash
  $ scp kape.json elk@192.168.60.133:/logstash/kape/
  ```
+ Send kape windows event Logs (JSON Format)
+ ```bash
+$ scp kape.json elk@192.168.60.133:logstash/winlog/
+```
+
+Send output data log2timeline (CSV Format)
+```bash
+$ scp timeline.csv elk@192.168.60.133:logstash/timeline/
+```
+Send IIS exchange logs (Log Format)
+```bash
+$ scp -r /path_to_logs/ elk@192.168.60.133:logstash/iis/
+```
+Send Window event Logs to elasticsearch (EVTX) 
+```bash
+PS C:\Program Files\Winlogbeat> .\winlogbeat.exe -c .\winlogbeat.yml -e
+``` 
+Zeek read PCAP files and send data to elasticsearch
+**Note** zeek output must be at path: /logstash/zeek/ 
+$ /logstash/zeek$ zeek -r file.pcap
+
+Suricate read PCAP file and send data to elasticsearch 
+ ```bash	            
+$ suricata -c /etc/suricata/suricata.yaml   -r file.pcap -l  /logstash/suricata/
+```
+Continuous reading any pcap files add on /logstash/suricata/
+```bash
+ $ suricata   -c /etc/suricata/suricata.yaml  --pcap-file-continuous -r /logstash/suricata/    -l /logstash/suricata/
+```
+
+ 
+  
+
