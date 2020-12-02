@@ -11,11 +11,10 @@ Abstract
 
 Type of indexing data 
 --------------
-| Applince | Extension |
+| output logs | Ext |
 |--|--|
 | IIS Exchange  | Log |
-| Detection and Analysis|2- Identification|
-|3- Containment, Eradication, & Recovery|3-Containment|
-|4-Post-Incident Activity|4- Eradication
-| |5- Recovery
-| |6- Lessons Learned
+| Log2time line |CSV|
+|Kape |JSON|
+|KAPE Windows event logs |JSON|
+| Windows Event Logs|EVTX|
