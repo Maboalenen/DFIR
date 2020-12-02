@@ -21,8 +21,8 @@ Type of indexing data
 
 TOOLS
 --------
-  1-	 Elasticsearch 
-  2-	Kibana 
+  > 1-	Elasticsearch 
+ > 2-	Kibana 
   3-	Logstash
   4-	Filebeat 
   5-	Winlogbeat
