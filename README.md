@@ -18,3 +18,13 @@ Type of indexing data
 |KAPE|JSON|
 |KAPE Windows event logs |JSON|
 | Windows Event Logs|EVTX|
+
+TOOLS
+--------
+1-	 Elasticsearch 
+2-	Kibana 
+3-	Logstash
+4-	Filebeat 
+5-	Winlogbeat
+6-	Suricata
+7-	Zeek
