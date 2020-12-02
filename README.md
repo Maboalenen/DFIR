@@ -54,9 +54,11 @@ Send Window event Logs to elasticsearch (EVTX)
 PS C:\Program Files\Winlogbeat> .\winlogbeat.exe -c .\winlogbeat.yml -e
 ``` 
 Zeek read PCAP files and send data to elasticsearch. 
-**Note** zeek output must be at path: /logstash/zeek/  
-$ /logstash/zeek$ zeek -r file.pcap
 
+**Note** zeek output must be at path: /logstash/zeek/
+```bash
+$ /logstash/zeek$ zeek -r file.pcap
+```
 Suricate read PCAP file and send data to elasticsearch 
  ```bash	            
 $ suricata -c /etc/suricata/suricata.yaml   -r file.pcap -l  /logstash/suricata/
