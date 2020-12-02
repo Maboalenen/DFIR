@@ -21,7 +21,6 @@ Type of indexing data
 
 TOOLS
 --------
-  Elasticsearch 
-  Kibana  
-  Logstash
+ Source: <a href='https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.0-amd64.deb' target='_blank'>Elasticsearch</a> 
+ 
   
