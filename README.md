@@ -13,7 +13,6 @@ Type of indexing data
 --------------
 Logs
 ---------
-|--|--|
 | Output data IIS Exchange |.LOGS |
 | Output data Log2timeline |.CSV |
 |	Output data Kape|.JSON |
@@ -21,8 +20,7 @@ Logs
 |	Windows event logs |.EVTX |
 Network Traffic
 --------
-|--|--|
 |	Output data Souricata  |PCAP|
-|	Output data zeek |PCAP |
+|	Output data zeek |PCAP|
 
 
