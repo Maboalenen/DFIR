@@ -1,6 +1,4 @@
- ```diff
-  - DFIR in blue 
- ```
+<font color="red">This is some text!</font>
  
  # Abstract
     IR team usually working on the offline data, collecting evidence then analyze it with their own tools,
