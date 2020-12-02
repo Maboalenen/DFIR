@@ -15,6 +15,6 @@ Type of indexing data
 |--|--|
 |IIS Exchange  |Log|
 |Log2timeline |CSV|
-|Kape |JSON|
+|KAPE|JSON|
 |KAPE Windows event logs |JSON|
 | Windows Event Logs|EVTX|
