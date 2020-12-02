@@ -21,6 +21,8 @@ Type of indexing data
 
 TOOLS
 --------
- Source: <a href='https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.0-amd64.deb' target='_blank'>Elasticsearch</a> 
+ <a href='https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.0-amd64.deb' target='_blank'>Elasticsearch</a>  
+ <a href='https://artifacts.elastic.co/downloads/kibana/kibana-7.10.0-amd64.deb' target='_blank'>Kibana</a>  
+ <a href='https://artifacts.elastic.co/downloads/logstash/logstash-7.10.0-amd64.deb' target='_blank'>Logstash</a>   
  
   
