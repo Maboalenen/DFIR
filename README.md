@@ -29,6 +29,10 @@ TOOLS
  <a href='https://suricata-ids.org/download/' target='_blank'>Suricata</a>  
  <a href='https://docs.zeek.org/en/master/install/install.html#id1' target='_blank'>Zeek</a>  
 
+How to use 
+-----------
 
- 
-  
+Send kape output (JSON format)
+bash```
+ $ scp kape.json elk@192.168.60.133:/logstash/kape/
+ ```
