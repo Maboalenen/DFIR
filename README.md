@@ -9,6 +9,10 @@ Abstract
 
 ![alt text](https://github.com/Maboalenen/DFIR/blob/main/DFIR.jpg?raw=true)
 
+Get Starting 
+-------
+Download DFIR VM <a href='https://drive.google.com/file/d/1n3DNlltoPOFFeV418fbhizm6M47prKbS/view?usp=sharing' target='_blank'>DFIR_Download</a> 
+
 Type of indexing data 
 --------------
 |output_logs|Ext|
