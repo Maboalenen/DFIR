@@ -1,11 +1,11 @@
 
-DFIR 
+DFIR Project
 ===========
 
 Abstract
 --------
-      IR team usually working on the offline data,collecting the evidence then analyze data with their own tools,
-      this is the structure for how to build your own data analysis using open source.
+      Incident response team usually working on the offline data,collecting the evidence then analyze data with their own tools,
+      this is the structure for how to build your own data analysis using open source .
 
 ![alt text](https://github.com/Maboalenen/DFIR/blob/main/DFIR.jpg?raw=true)
 
