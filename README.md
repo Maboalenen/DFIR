@@ -11,10 +11,10 @@ Abstract
 
 Get Starting 
 -------
-> Download DFIR VM <a href='https://drive.google.com/file/d/1n3DNlltoPOFFeV418fbhizm6M47prKbS/view?usp=sharing' target='_blank'>DFIR_Download</a> 
-> VM_IP_Address:192.168.60.133
-> User:elk
-> Password:elk-dfir
+> Download DFIR VM <a href='https://drive.google.com/file/d/1n3DNlltoPOFFeV418fbhizm6M47prKbS/view?usp=sharing' target='_blank'>DFIR_Download</a>   
+> VM_IP_Address:192.168.60.133  
+> User:elk   
+> Password:elk-dfir  
 
 
 Type of indexing data 
