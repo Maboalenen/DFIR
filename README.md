@@ -11,6 +11,7 @@ Abstract
 
 Get Starting 
 -------
+> Building your own DFIR VM <a href='https://drive.google.com/file/d/1y512lcEYH_STG5CN4yU6gsTuK-J947jo/view?usp=sharing' target='_blank'>Doc_DFIR_Download</a>  
 > Download DFIR VM <a href='https://drive.google.com/file/d/1n3DNlltoPOFFeV418fbhizm6M47prKbS/view?usp=sharing' target='_blank'>DFIR_Download</a>   
 > VM_IP_Address: 192.168.60.133  
 > User: elk   
