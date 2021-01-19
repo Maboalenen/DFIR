@@ -38,7 +38,8 @@ TOOLS
  <a href='https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-7.10.0-windows-x86_64.zip' target='_blank'>Winlogbeat</a>   
  <a href='https://suricata-ids.org/download/' target='_blank'>Suricata</a>  
  <a href='https://docs.zeek.org/en/master/install/install.html#id1' target='_blank'>Zeek</a>  
- <a href='https://github.com/volatilityfoundation/volatility/wiki/Installation' target='_blank'>Volatility</a> 
+ <a href='https://github.com/volatilityfoundation/volatility/wiki/Installation' target='_blank'>Volatility</a>
+ 
 How to use 
 -----------
 
