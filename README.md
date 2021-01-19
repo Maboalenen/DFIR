@@ -78,7 +78,7 @@ Continuous reading any pcap files add on /logstash/suricata/
 ```bash
  $ suricata   -c /etc/suricata/suricata.yaml  --pcap-file-continuous -r /logstash/suricata/    -l /logstash/suricata/
 ```
-### Volatility 
+### Volatility plugins
  Pslist print all running processes with th EPROCESS doubly linked list
   ```bash
 $ vol.py -f memdump.mem --profile=Win2016x64_14393 pslist  > /logstash/memory/pslist.csv
@@ -87,4 +87,23 @@ $ vol.py -f memdump.mem --profile=Win2016x64_14393 pslist  > /logstash/memory/ps
   ```bash
 $ vol.py -f memdump.mem --profile=Win2016x64_14393 psscan  > /logstash/memory/pscan.csv
 ```
-
+Pstree print process list as tree collect the perent relationships (using Eprocess linked list) 
+ ```bash
+$ vol.py -f memdump.mem --profile=Win2016x64_14393 pstree  > /logstash/memory/pstree.csv
+```
+Psxview helps you detect hidden processes by comparing what PsActiveProcessHead contains with what is reported by various other sources of process listings.
+ ```bash
+$ vol.py -f memdump.mem --profile=Win2016x64_14393 psxview  > /logstash/memory/psxview.csv
+```
+Netscan Network artifacts and socket. (it’s helps to discover suspicious network connections)
+```bash
+$ vol.py -f memdump.mem --profile=Win2016x64_14393 netscan  > /logstash/memory/netscan.csv
+```
+FileScan search for file object in memory and Identifies file in memory even if there are no handled (closed file) finds NTFS special files (such as $MFT) that are not present in VAD tree or process handles list.
+```bash
+$ vol.py -f memdump.mem --profile=Win2016x64_14393 filescan  > /logstash/memory/filescan.csv
+```
+Strings used to extract English ASCII and Unicode string from data stream
+```bash
+$ strings -a -td -el  memdump.mem  >  /logstash/memory/strings.csv
+```
