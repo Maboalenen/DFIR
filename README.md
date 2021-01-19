@@ -79,6 +79,12 @@ Continuous reading any pcap files add on /logstash/suricata/
  $ suricata   -c /etc/suricata/suricata.yaml  --pcap-file-continuous -r /logstash/suricata/    -l /logstash/suricata/
 ```
 ### Volatility 
- 
-  
+ Pslist print all running processes with th EPROCESS doubly linked list
+  ```bash
+$ vol.py -f memdump.mem --profile=Win2016x64_14393 pslist  > /logstash/memory/pslist.csv
+```
+ Psscan scan physical memory for Eprosses but it’s can identify the terminated processes with unlocaked
+  ```bash
+$ vol.py -f memdump.mem --profile=Win2016x64_14393 psscan  > /logstash/memory/pscan.csv
+```
 
