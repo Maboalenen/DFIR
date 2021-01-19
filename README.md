@@ -8,7 +8,7 @@ Abstract
       then analyze data with their own tools, this is the structure for how to build your own data analysis 
       using open source tools .
 
-![alt text](https://github.com/Maboalenen/DFIR/blob/main/DFIR.jpg?raw=true)
+![alt text](https://github.com/Maboalenen/DFIR/blob/main/DFIRv2.jpg?raw=true)
 
 Get Starting 
 -------
