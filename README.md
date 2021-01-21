@@ -16,7 +16,8 @@ Get Starting
   > Memory Forebsics DFIR VMv2 <a href='https://drive.google.com/file/d/1C42253EbtT7-l2oHHKGKWyexxHfrtFMr/view?usp=sharing' target='_blank'>Doc_DFIR_Download_V2 </a>     
   > Download DFIR VM <a href='https://drive.google.com/file/d/1SqNrrBaut4_beR6nsgtCie4gSZ0jMfYd/view?usp=sharing' target='_blank'>DFIR_Download</a>       
   > VM_IP_Address: 192.168.60.133  
-  > Kibana : http://192.168.60.133:5601  
+  > Kibana : 192.168.60.133:5601
+  > Elasticsearch : 192.168.60.133:9200   
   > User: elk   
   > Password: elk-dfir  
 
