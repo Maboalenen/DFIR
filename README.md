@@ -1,5 +1,5 @@
 
-DFIR with ELK Project
+DFIR_ELK Project
 ===========
 
 Abstract
