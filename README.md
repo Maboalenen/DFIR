@@ -117,7 +117,7 @@ $ strings -a -td -el  memdump.mem  >  /logstash/memory/strings.csv
  $ sudo service elasticsearch status
  $ sudo service elasticsearch stop
  $ sudo service elasticsearch start 
- '''
+ ```
  if you restart elatsicsearch make sure to restart logstash after  
  ```bash
  $ sudo logstash restart 
