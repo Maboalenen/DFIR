@@ -110,10 +110,9 @@ Strings used to extract English ASCII and Unicode string from data stream
 ```bash
 $ strings -a -td -el  memdump.mem  >  /logstash/memory/strings.csv
 ```
-
 ### troubleshooting. 
 -------------
- -    Make sure all the service are runing and active 
+ - Make sure all the service are runing and active  
  ```bash
  $ sudo service elasticsearch status
  $ sudo service elasticsearch stop
