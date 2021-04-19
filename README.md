@@ -120,5 +120,5 @@ $ strings -a -td -el  memdump.mem  >  /logstash/memory/strings.csv
  ```
  if you restart elatsicsearch make sure to restart logstash after  
  ```bash
- $ sudo logstash restart 
+ $ sudo service logstash restart 
 ```
