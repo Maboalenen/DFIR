@@ -112,7 +112,7 @@ $ strings -a -td -el  memdump.mem  >  /logstash/memory/strings.csv
 ```
 ### Troubleshooting. 
 -------------
- - Make sure all the service are runing and active  
+ - Make sure all the services are running and active  
  ```bash
  $ sudo service elasticsearch status
  $ sudo service elasticsearch stop
