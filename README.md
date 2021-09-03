@@ -4,9 +4,9 @@ DFIR_ELK Project
 
 Abstract
 --------
-      Incident response teams usually working on the offline data,collecting the evidence 
-      then analyze data with their own tools, this is the structure for how to build your own data analysis 
-      using open source tools.
+      Incident Response Team usually working on the offline data, and analyze it with their own tools, DFIR_ELK project customized build of the open-source 
+      consisting of Elasticsearch, Logstash, Kibana dashboard, Filebeat, Suricata, Zeek, and Volatility, additionally parsing and visualizing the critical 
+      output data for forensics tool “Kape by Eric Zimmerman” that help. IR team for investigating and analyzing the information security
 
 ![alt text](https://github.com/Maboalenen/DFIR/blob/main/DFIR_logo.jpg?raw=true)
 
