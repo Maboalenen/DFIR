@@ -15,7 +15,7 @@ Get Starting
 -------
   > Building your own DFIR VM <a href='https://drive.google.com/file/d/1y512lcEYH_STG5CN4yU6gsTuK-J947jo/view?usp=sharing' target='_blank'>Doc_DFIR_Download_V1 </a>    
   > Memory Forensics DFIR VMv2 <a href='https://drive.google.com/file/d/1C42253EbtT7-l2oHHKGKWyexxHfrtFMr/view?usp=sharing' target='_blank'>Doc_DFIR_Download_V2 </a> 
-  > DFIR_ELK_PROJECT using <a href='https://drive.google.com/file/d/1zNbEwEwbsBcsK0kOT58Hjg1jo-iuHF01/view?usp=sharing  target='_blank'>Doc_DFIR_Download_How to use </a>
+  > DFIR_ELK_PROJECT using <a href='https://drive.google.com/file/d/1zNbEwEwbsBcsK0kOT58Hjg1jo-iuHF01/view?usp=sharing' target='_blank'>Doc_DFIR_Download_How to use </a>. 
   > Download DFIR VM <a href='https://drive.google.com/file/d/1TMpuZ8oiDX4vx2qovT5bGR8Qogb46NyE/view?usp=sharing' target='_blank'>DFIR_Download</a>       
   > VM_IP_Address: 192.168.60.133  
   > Kibana : 192.168.60.133:5601  
