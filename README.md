@@ -93,7 +93,7 @@ $ vol.py -f memdump.mem --profile=Win2016x64_14393 pslist  > /logstash/memory/ps
   ```bash
 $ vol.py -f memdump.mem --profile=Win2016x64_14393 psscan  > /logstash/memory/pscan.csv
 ```
-Pstree print process list as tree collect the perent relationships (using Eprocess linked list) 
+Pstree print process list as tree collect the parent relationships (using Eprocess linked list) 
  ```bash
 $ vol.py -f memdump.mem --profile=Win2016x64_14393 pstree  > /logstash/memory/pstree.csv
 ```
